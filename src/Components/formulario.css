@@ -1,0 +1,17 @@
+#formulario {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    max-width: 40%;
+    margin: auto;
+   
+}
+
+div #formulario {
+    height: 350px;
+}
+
+.error-captcha {
+    height: 100px;
+    width: 100%;
+}

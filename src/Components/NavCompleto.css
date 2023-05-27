@@ -1,0 +1,54 @@
+.logo {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+
+#navCom {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+}
+
+.fluidcontent {
+  height: 80px;
+  width: 100%;
+}
+
+.fluid.container {
+  display: flex;
+  align-content: space-between;
+  width: 100%;
+}
+
+@media screen and (max-width: 1500px) {
+  #navCom {
+    display: flex;
+    align-content: space-between;
+    object-fit: cover;
+
+  }
+
+  .fluidcontent {
+    height: 140px;
+    width: 100%;
+  }
+
+  .logo {
+    margin-left: 10px;
+    
+  }
+
+  .fluid {
+    margin-inline: 10px;
+    background-color: rgba(36, 37, 38, 0.706);
+  }
+
+}
